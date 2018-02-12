@@ -1,9 +1,6 @@
-#include <iostream>
-
-using namespce std;
-
-int main ()
+#include "foo.h"
+int main(int argc, char** argv)
 {
-	std::cout << " Hello World \n";
+	hello_world();
 	return 0;
 }
